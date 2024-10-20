@@ -45,7 +45,6 @@ body {
 .lightBox-item {
   width: 60%;
   position: relative;
-  transition: background-image 0.5s ease-in-out;
 }
 
 .image-container {

@@ -7,15 +7,12 @@ const LightBox = ({ image, onClose, onNext, onPrev }) => {
         <div
           className="image-container"
           style={{
-            width: "100%",
-            height: "500px",
             backgroundImage: `url(${image.src})`,
             backgroundSize: "cover",
             backgroundPosition: "center center",
             position: "relative",
           }}
         >
-          {/* زر الإغلاق أعلى اليمين */}
           <i
             id="close"
             className="fa-regular fa-circle-xmark"
@@ -31,7 +28,6 @@ const LightBox = ({ image, onClose, onNext, onPrev }) => {
             }}
           ></i>
 
-          {/* زر السابق على اليسار */}
           <i
             id="prev"
             className="fa-regular fa-circle-left"
@@ -48,7 +44,6 @@ const LightBox = ({ image, onClose, onNext, onPrev }) => {
             }}
           ></i>
 
-          {/* زر التالي على اليمين */}
           <i
             id="next"
             className="fa-regular fa-circle-right"
