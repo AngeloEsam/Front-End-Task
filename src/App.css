@@ -29,6 +29,18 @@ body {
 }
 
 /* lightbox */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .lightBox {
   position: fixed;
   left: 0;
@@ -40,19 +52,22 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  animation: fadeIn 0.5s ease-out;
 }
 
 .lightBox-item {
   width: 60%;
   position: relative;
+  animation: fadeIn 0.5s ease;
+
 }
 
 .image-container {
   position: relative;
   width: 100%;
   height: 500px;
+  animation: fadeIn 0.5s ease;
 }
-
 
 i {
   font-size: 30px;
