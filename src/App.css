@@ -53,6 +53,7 @@ body {
   height: 500px;
 }
 
+
 i {
   font-size: 30px;
   cursor: pointer;
@@ -70,4 +71,36 @@ i#prev:hover, i#next:hover, i#close:hover {
 
 i#close {
   font-size: 30px;
+}
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 2;
 }

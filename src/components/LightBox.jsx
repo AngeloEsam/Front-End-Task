@@ -17,47 +17,18 @@ const LightBox = ({ image, onClose, onNext, onPrev }) => {
             id="close"
             className="fa-regular fa-circle-xmark"
             onClick={onClose}
-            style={{
-              position: "absolute",
-              top: "10px",
-              right: "10px",
-              color: "white",
-              fontSize: "30px",
-              cursor: "pointer",
-              zIndex: 2,
-            }}
           ></i>
 
           <i
             id="prev"
             className="fa-regular fa-circle-left"
             onClick={onPrev}
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "10px",
-              transform: "translateY(-50%)",
-              color: "white",
-              fontSize: "40px",
-              cursor: "pointer",
-              zIndex: 2,
-            }}
           ></i>
 
           <i
             id="next"
             className="fa-regular fa-circle-right"
             onClick={onNext}
-            style={{
-              position: "absolute",
-              top: "50%",
-              right: "10px",
-              transform: "translateY(-50%)",
-              color: "white",
-              fontSize: "40px",
-              cursor: "pointer",
-              zIndex: 2,
-            }}
           ></i>
         </div>
       </div>
